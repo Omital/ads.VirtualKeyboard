@@ -35,5 +35,9 @@ namespace ads.VirtualKeyboard
             SendKeys.Send("{" + (sender as Button).Tag.ToString() + "}");
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
